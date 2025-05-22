@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_306566b991c3a47319dcddc3a451af63 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_306566b991c3a47319dcddc3a451af63" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_306566b991c3a47319dcddc3a451af63 = L.map(
+                "map_306566b991c3a47319dcddc3a451af63",
+                {
+                    center: [3.13935, 101.69612],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cab3a457cddaad6ddbe957164d05ccb4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_cab3a457cddaad6ddbe957164d05ccb4.addTo(map_306566b991c3a47319dcddc3a451af63);
+        
+    
+            var marker_aeabe61e476a6f1c3ca0f85ffcf1ca50 = L.marker(
+                [3.13935, 101.69612],
+                {}
+            ).addTo(map_306566b991c3a47319dcddc3a451af63);
+        
+    
+            var icon_99e3b3714447d9ed4d26371910c0a084 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aeabe61e476a6f1c3ca0f85ffcf1ca50.setIcon(icon_99e3b3714447d9ed4d26371910c0a084);
+        
+    
+        var popup_24b831911360d7dbb170f4b4dbe8b40c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_706779ec0a6c637224c7ed8a7353dd4f = $(`<div id="html_706779ec0a6c637224c7ed8a7353dd4f" style="width: 100.0%; height: 100.0%;">Menara Takaful Malaysia</div>`)[0];
+                popup_24b831911360d7dbb170f4b4dbe8b40c.setContent(html_706779ec0a6c637224c7ed8a7353dd4f);
+            
+        
+
+        marker_aeabe61e476a6f1c3ca0f85ffcf1ca50.bindPopup(popup_24b831911360d7dbb170f4b4dbe8b40c)
+        ;
+
+        
+    
+    
+            var feature_group_2511c7047ebc401c8672a5df6a0d8dc1 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_e9b9f47f1f4c44a1618508d5c69ce39a = L.marker(
+                [3.147265049934436, 101.69671755349766],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_8f44ee9c9f4dedff032d181a0bb0acc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e9b9f47f1f4c44a1618508d5c69ce39a.setIcon(icon_8f44ee9c9f4dedff032d181a0bb0acc7);
+        
+    
+        var popup_6a1ccb9fdddb5b1d1f7536565288ec7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97777ffcbe5ca537bff1cf0c5ff0a3ea = $(`<div id="html_97777ffcbe5ca537bff1cf0c5ff0a3ea" style="width: 100.0%; height: 100.0%;">Client Location: Jalan Tun H.S. Lee,92, Jalan Tun H.S. Lee, Kuala Lumpur</div>`)[0];
+                popup_6a1ccb9fdddb5b1d1f7536565288ec7a.setContent(html_97777ffcbe5ca537bff1cf0c5ff0a3ea);
+            
+        
+
+        marker_e9b9f47f1f4c44a1618508d5c69ce39a.bindPopup(popup_6a1ccb9fdddb5b1d1f7536565288ec7a)
+        ;
+
+        
+    
+    
+            var marker_6074403ccc0bbe16646fa5355aefa77a = L.marker(
+                [3.1532453361032857, 101.69426279582486],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_4492ba88b151f28b86d7d5ef5085eda2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6074403ccc0bbe16646fa5355aefa77a.setIcon(icon_4492ba88b151f28b86d7d5ef5085eda2);
+        
+    
+        var popup_b6ea4e35bcb25b6c7540a2b9885a66c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47e8ee2c20baed71e11c0412d0ca6c53 = $(`<div id="html_47e8ee2c20baed71e11c0412d0ca6c53" style="width: 100.0%; height: 100.0%;">Client Location: Jalan Raja Laut,Menara DBKL 2, Jalan Raja Laut, Kuala Lumpur</div>`)[0];
+                popup_b6ea4e35bcb25b6c7540a2b9885a66c6.setContent(html_47e8ee2c20baed71e11c0412d0ca6c53);
+            
+        
+
+        marker_6074403ccc0bbe16646fa5355aefa77a.bindPopup(popup_b6ea4e35bcb25b6c7540a2b9885a66c6)
+        ;
+
+        
+    
+    
+            var marker_21f9c5072d9edd33be1e6e7e11a4564f = L.marker(
+                [3.1452049630371244, 101.69398133815206],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_5d2c7e36ebd6f068e8c34658c6e92f79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_21f9c5072d9edd33be1e6e7e11a4564f.setIcon(icon_5d2c7e36ebd6f068e8c34658c6e92f79);
+        
+    
+        var popup_d8fe3596326d0973fcd2610d306e264d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8812153acca180d20a7f74403d4e2e95 = $(`<div id="html_8812153acca180d20a7f74403d4e2e95" style="width: 100.0%; height: 100.0%;">Client Location: Kompleks Dayabumi,City Point, Dayabumi Complex, Jalan Sultan Hishamuddin, Kuala Lumpur</div>`)[0];
+                popup_d8fe3596326d0973fcd2610d306e264d.setContent(html_8812153acca180d20a7f74403d4e2e95);
+            
+        
+
+        marker_21f9c5072d9edd33be1e6e7e11a4564f.bindPopup(popup_d8fe3596326d0973fcd2610d306e264d)
+        ;
+
+        
+    
+    
+            var marker_02cf281dd3e8780fea4c31a245512336 = L.marker(
+                [3.214159924006297, 101.63213892466128],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_d4b38c9219bed6d767615c4652d05617 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_02cf281dd3e8780fea4c31a245512336.setIcon(icon_d4b38c9219bed6d767615c4652d05617);
+        
+    
+        var popup_166893f56e066d1978eb8b965e2e4375 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd0922754e8c4634885d75a146d404fd = $(`<div id="html_dd0922754e8c4634885d75a146d404fd" style="width: 100.0%; height: 100.0%;">Client Location: Kepong,Jalan 53, Desa Jaya, Kepong, Kuala Lumpur</div>`)[0];
+                popup_166893f56e066d1978eb8b965e2e4375.setContent(html_dd0922754e8c4634885d75a146d404fd);
+            
+        
+
+        marker_02cf281dd3e8780fea4c31a245512336.bindPopup(popup_166893f56e066d1978eb8b965e2e4375)
+        ;
+
+        
+    
+    
+            var marker_b6940361775796fc92b8e3a42b958358 = L.marker(
+                [3.161556876240488, 101.71894086956398],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_0ccfdbfbe2bb48a3dc791a5175df4d68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b6940361775796fc92b8e3a42b958358.setIcon(icon_0ccfdbfbe2bb48a3dc791a5175df4d68);
+        
+    
+        var popup_8f0034f6b5fa9f19f87f6fb38753c292 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0960780b6c9fe58cc6ea13a5a294f7c = $(`<div id="html_d0960780b6c9fe58cc6ea13a5a294f7c" style="width: 100.0%; height: 100.0%;">Client Location: Jalan Tun Razak,Bangunan UTM SPACE, Jalan Tun Razak, Kuala Lumpur</div>`)[0];
+                popup_8f0034f6b5fa9f19f87f6fb38753c292.setContent(html_d0960780b6c9fe58cc6ea13a5a294f7c);
+            
+        
+
+        marker_b6940361775796fc92b8e3a42b958358.bindPopup(popup_8f0034f6b5fa9f19f87f6fb38753c292)
+        ;
+
+        
+    
+    
+            var marker_645514f0784fb04d10c34d3010f2d0b1 = L.marker(
+                [3.2087521805466346, 101.65855086043547],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_2b0fe47c9053007133d154827c513632 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_645514f0784fb04d10c34d3010f2d0b1.setIcon(icon_2b0fe47c9053007133d154827c513632);
+        
+    
+        var popup_ad8d388589f75099b065b941b864d1ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f635a795b66842cabb30cc5e248391f = $(`<div id="html_7f635a795b66842cabb30cc5e248391f" style="width: 100.0%; height: 100.0%;">Client Location: Jinjang,Jalan 2/32, Off 6 1/2 Mile, Jalan Kepong, Kuala Lumpur</div>`)[0];
+                popup_ad8d388589f75099b065b941b864d1ce.setContent(html_7f635a795b66842cabb30cc5e248391f);
+            
+        
+
+        marker_645514f0784fb04d10c34d3010f2d0b1.bindPopup(popup_ad8d388589f75099b065b941b864d1ce)
+        ;
+
+        
+    
+    
+            var marker_b3dad74bb44e8d611e183ed206c9be10 = L.marker(
+                [3.0894880690542155, 101.74190696884324],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_bb824457d3e92812feca1b61310e83e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b3dad74bb44e8d611e183ed206c9be10.setIcon(icon_bb824457d3e92812feca1b61310e83e0);
+        
+    
+        var popup_8f25564f534806b684daf84e5e1566c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d590a2fef4df49f8d953d8b8c11d9d3 = $(`<div id="html_1d590a2fef4df49f8d953d8b8c11d9d3" style="width: 100.0%; height: 100.0%;">Client Location: Taman Segar,Jalan Manis Enam, Taman Segar, Kuala Lumpur</div>`)[0];
+                popup_8f25564f534806b684daf84e5e1566c9.setContent(html_1d590a2fef4df49f8d953d8b8c11d9d3);
+            
+        
+
+        marker_b3dad74bb44e8d611e183ed206c9be10.bindPopup(popup_8f25564f534806b684daf84e5e1566c9)
+        ;
+
+        
+    
+    
+            var marker_733051e43861d0d3575f166a5014a7d7 = L.marker(
+                [3.1476334131206056, 101.73857154000682],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_74defb80567e33ac0a5c2285e77ddf79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_733051e43861d0d3575f166a5014a7d7.setIcon(icon_74defb80567e33ac0a5c2285e77ddf79);
+        
+    
+        var popup_e72281fc529ba0a01061a3750fff2317 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd818f26e6c0bd6ec972a61399cb53f7 = $(`<div id="html_bd818f26e6c0bd6ec972a61399cb53f7" style="width: 100.0%; height: 100.0%;">Client Location: Desa Pandan,Jalan 3/76D, Desa Pandan, Kuala Lumpur</div>`)[0];
+                popup_e72281fc529ba0a01061a3750fff2317.setContent(html_bd818f26e6c0bd6ec972a61399cb53f7);
+            
+        
+
+        marker_733051e43861d0d3575f166a5014a7d7.bindPopup(popup_e72281fc529ba0a01061a3750fff2317)
+        ;
+
+        
+    
+    
+            var marker_ec38a1e73ff4b609dadc52c23da21a83 = L.marker(
+                [3.071409025140655, 101.74293155906176],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_2d64e3d72d2b7b5d9dfbc0e91ef081de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ec38a1e73ff4b609dadc52c23da21a83.setIcon(icon_2d64e3d72d2b7b5d9dfbc0e91ef081de);
+        
+    
+        var popup_3a3dcb84cf17b9108c5fb29fbdd1bab0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6122b41b00570a81999044f995c52a3d = $(`<div id="html_6122b41b00570a81999044f995c52a3d" style="width: 100.0%; height: 100.0%;">Client Location: Alam Damai,Jalan Alam Damai 1, Cheras, Kuala Lumpur</div>`)[0];
+                popup_3a3dcb84cf17b9108c5fb29fbdd1bab0.setContent(html_6122b41b00570a81999044f995c52a3d);
+            
+        
+
+        marker_ec38a1e73ff4b609dadc52c23da21a83.bindPopup(popup_3a3dcb84cf17b9108c5fb29fbdd1bab0)
+        ;
+
+        
+    
+    
+            var marker_c22d231742344a578111df524a32dac1 = L.marker(
+                [3.083374476307841, 101.67171278418874],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_56a138d06142ffd00d0d3d40c133204c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c22d231742344a578111df524a32dac1.setIcon(icon_56a138d06142ffd00d0d3d40c133204c);
+        
+    
+        var popup_b393647b0a071ccef4fefb2edd0c2705 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01ec7a9ad7529d64e75071d8eb327a45 = $(`<div id="html_01ec7a9ad7529d64e75071d8eb327a45" style="width: 100.0%; height: 100.0%;">Client Location: Kompleks Bandar,Jalan Mega Mendong, Bandar Park, Jalan Kelang Lama, Kuala Lumpur</div>`)[0];
+                popup_b393647b0a071ccef4fefb2edd0c2705.setContent(html_01ec7a9ad7529d64e75071d8eb327a45);
+            
+        
+
+        marker_c22d231742344a578111df524a32dac1.bindPopup(popup_b393647b0a071ccef4fefb2edd0c2705)
+        ;
+
+        
+    
+    
+            var marker_6a2f81e06aa7d5f2329b3c27da7a0d40 = L.marker(
+                [3.1583421027343626, 101.71233224779472],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_ec6c9b09a876b063884bfcf1abb31b6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6a2f81e06aa7d5f2329b3c27da7a0d40.setIcon(icon_ec6c9b09a876b063884bfcf1abb31b6c);
+        
+    
+        var popup_c63df296f6371c7dad34b88880720265 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f5f1b6da3685ab2dee2ffe43c6a78a6 = $(`<div id="html_3f5f1b6da3685ab2dee2ffe43c6a78a6" style="width: 100.0%; height: 100.0%;">Client Location: KLCC,Suria KLCC, KL City Centre, Kuala Lumpur</div>`)[0];
+                popup_c63df296f6371c7dad34b88880720265.setContent(html_3f5f1b6da3685ab2dee2ffe43c6a78a6);
+            
+        
+
+        marker_6a2f81e06aa7d5f2329b3c27da7a0d40.bindPopup(popup_c63df296f6371c7dad34b88880720265)
+        ;
+
+        
+    
+    
+            var marker_8919ac16610dfe566cf3249a8c7b6e86 = L.marker(
+                [3.1003436413488834, 101.74069270324374],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_b47930841ff560fc99150c5bc7d1ab57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8919ac16610dfe566cf3249a8c7b6e86.setIcon(icon_b47930841ff560fc99150c5bc7d1ab57);
+        
+    
+        var popup_394a9e1a7aaaf9c28a683981fafb6394 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bdc8bc8bdc63b067ce018dbf666febd = $(`<div id="html_4bdc8bc8bdc63b067ce018dbf666febd" style="width: 100.0%; height: 100.0%;">Client Location: Taman Cheras Makmur,Jalan Kaskas 1, Batu 6, Jalan Cheras, Kuala Lumpur</div>`)[0];
+                popup_394a9e1a7aaaf9c28a683981fafb6394.setContent(html_4bdc8bc8bdc63b067ce018dbf666febd);
+            
+        
+
+        marker_8919ac16610dfe566cf3249a8c7b6e86.bindPopup(popup_394a9e1a7aaaf9c28a683981fafb6394)
+        ;
+
+        
+    
+    
+            var marker_6cc32c415f93ae0fb8540bbe2b93a9a2 = L.marker(
+                [3.069361225491892, 101.6916106659728],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_a2edae776f64158146bb1b441dcdeb9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6cc32c415f93ae0fb8540bbe2b93a9a2.setIcon(icon_a2edae776f64158146bb1b441dcdeb9c);
+        
+    
+        var popup_96bb772b5d38268645409a5d143c88f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_561a524dcda2a06ebae12b62da37cd2f = $(`<div id="html_561a524dcda2a06ebae12b62da37cd2f" style="width: 100.0%; height: 100.0%;">Client Location: Sri Petaling,Jalan Radin Anum, Bandar Baru Seri Petaling, Kuala Lumpur</div>`)[0];
+                popup_96bb772b5d38268645409a5d143c88f5.setContent(html_561a524dcda2a06ebae12b62da37cd2f);
+            
+        
+
+        marker_6cc32c415f93ae0fb8540bbe2b93a9a2.bindPopup(popup_96bb772b5d38268645409a5d143c88f5)
+        ;
+
+        
+    
+    
+            var marker_5cd9fd37b8456414a108be4595267117 = L.marker(
+                [3.160255122200954, 101.73473825164294],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_3e1163efcde662e10937635162af8824 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5cd9fd37b8456414a108be4595267117.setIcon(icon_3e1163efcde662e10937635162af8824);
+        
+    
+        var popup_de7046ee52204eed9370364fa52fac08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35ceed51e48ac907bb21c2fd2b086ce3 = $(`<div id="html_35ceed51e48ac907bb21c2fd2b086ce3" style="width: 100.0%; height: 100.0%;">Client Location: Menara Perkeso,Menara Perkeso, No. 281, Jalan Ampang, Kuala Lumpur</div>`)[0];
+                popup_de7046ee52204eed9370364fa52fac08.setContent(html_35ceed51e48ac907bb21c2fd2b086ce3);
+            
+        
+
+        marker_5cd9fd37b8456414a108be4595267117.bindPopup(popup_de7046ee52204eed9370364fa52fac08)
+        ;
+
+        
+    
+    
+            var marker_6785473f2572f644277715e17ab10aa2 = L.marker(
+                [3.056599892069497, 101.70521938985092],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_68ab2f406774abfd57a2c8bad9552e83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6785473f2572f644277715e17ab10aa2.setIcon(icon_68ab2f406774abfd57a2c8bad9552e83);
+        
+    
+        var popup_59b0347f282580e72f5355b23ab7cacd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ec6154f055cb89b4de81f11eed9efd2 = $(`<div id="html_8ec6154f055cb89b4de81f11eed9efd2" style="width: 100.0%; height: 100.0%;">Client Location: Technology Park Malaysia,Lebuhraya Puchong – Sg. Besi, Bukit Jalil, Kuala Lumpur</div>`)[0];
+                popup_59b0347f282580e72f5355b23ab7cacd.setContent(html_8ec6154f055cb89b4de81f11eed9efd2);
+            
+        
+
+        marker_6785473f2572f644277715e17ab10aa2.bindPopup(popup_59b0347f282580e72f5355b23ab7cacd)
+        ;
+
+        
+    
+    
+            var marker_01c04b849896bfb822bec314d3ab1500 = L.marker(
+                [3.1576765599411463, 101.7198410381521],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_0ed3bfa811234ce58877773d486e06fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_01c04b849896bfb822bec314d3ab1500.setIcon(icon_0ed3bfa811234ce58877773d486e06fd);
+        
+    
+        var popup_3b572b34dc7f20e69e046e0d07a37158 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b3bb394bf8812249199c4c37d6efa36 = $(`<div id="html_2b3bb394bf8812249199c4c37d6efa36" style="width: 100.0%; height: 100.0%;">Client Location: Menara PNB,Jalan Tun Razak, Kuala Lumpur</div>`)[0];
+                popup_3b572b34dc7f20e69e046e0d07a37158.setContent(html_2b3bb394bf8812249199c4c37d6efa36);
+            
+        
+
+        marker_01c04b849896bfb822bec314d3ab1500.bindPopup(popup_3b572b34dc7f20e69e046e0d07a37158)
+        ;
+
+        
+    
+    
+            var marker_424922d4b98b4b4a5ec729a86d4f3ea4 = L.marker(
+                [3.1020825592029984, 101.70867072044402],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_8723a5c588de2b15b895945797b59122 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_424922d4b98b4b4a5ec729a86d4f3ea4.setIcon(icon_8723a5c588de2b15b895945797b59122);
+        
+    
+        var popup_f2a6e169ca095271f1d5fe570738aeda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61ec39df3217c446742a68eff41ba50b = $(`<div id="html_61ec39df3217c446742a68eff41ba50b" style="width: 100.0%; height: 100.0%;">Client Location: Bandar Sri Permaisuri,Jalan Sri Permaisuri 8, Bandar Sri Permaisuri, Kuala Lumpur</div>`)[0];
+                popup_f2a6e169ca095271f1d5fe570738aeda.setContent(html_61ec39df3217c446742a68eff41ba50b);
+            
+        
+
+        marker_424922d4b98b4b4a5ec729a86d4f3ea4.bindPopup(popup_f2a6e169ca095271f1d5fe570738aeda)
+        ;
+
+        
+    
+    
+            var marker_135d8124a5651efa1a88c3ee42314460 = L.marker(
+                [3.1971944273985775, 101.71489064928036],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_2d33e765cdc47c9563f42e5da953c1ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_135d8124a5651efa1a88c3ee42314460.setIcon(icon_2d33e765cdc47c9563f42e5da953c1ae);
+        
+    
+        var popup_cffca77f895da19ed35e2deb03ea8f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baa4cc70cef0633dd4446b32b9683460 = $(`<div id="html_baa4cc70cef0633dd4446b32b9683460" style="width: 100.0%; height: 100.0%;">Client Location: Setapak,Wisma Lee Kay Huan, Jalan Genting Kelang, Setapak, Kuala Lumpur</div>`)[0];
+                popup_cffca77f895da19ed35e2deb03ea8f45.setContent(html_baa4cc70cef0633dd4446b32b9683460);
+            
+        
+
+        marker_135d8124a5651efa1a88c3ee42314460.bindPopup(popup_cffca77f895da19ed35e2deb03ea8f45)
+        ;
+
+        
+    
+    
+            var marker_355249b2c216a4078eab287dd05ff84a = L.marker(
+                [3.155554497937829, 101.71916356833536],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_71b2a73890ada998fa9debc9f62d293b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_355249b2c216a4078eab287dd05ff84a.setIcon(icon_71b2a73890ada998fa9debc9f62d293b);
+        
+    
+        var popup_24a425b225067bb7ec8c8eba47c8fb41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbb87d9f40459eea1d67da9a95e59722 = $(`<div id="html_bbb87d9f40459eea1d67da9a95e59722" style="width: 100.0%; height: 100.0%;">Client Location: Menara Felda,Persiaran KLCC, Kuala Lumpur</div>`)[0];
+                popup_24a425b225067bb7ec8c8eba47c8fb41.setContent(html_bbb87d9f40459eea1d67da9a95e59722);
+            
+        
+
+        marker_355249b2c216a4078eab287dd05ff84a.bindPopup(popup_24a425b225067bb7ec8c8eba47c8fb41)
+        ;
+
+        
+    
+    
+            var marker_cd0376d8ac68668c9230e5eddf914945 = L.marker(
+                [3.1329674760680817, 101.67307704135371],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_1ec7877e3ea461f52cf51b43bf07bea1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cd0376d8ac68668c9230e5eddf914945.setIcon(icon_1ec7877e3ea461f52cf51b43bf07bea1);
+        
+    
+        var popup_26455645c2c2ccf0aff6ef7939b06a92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66870318cd3310a3ca76d7d62795c909 = $(`<div id="html_66870318cd3310a3ca76d7d62795c909" style="width: 100.0%; height: 100.0%;">Client Location: Bangsar Baru,Jalan Maarof, Bangsar Baru, Kuala Lumpur</div>`)[0];
+                popup_26455645c2c2ccf0aff6ef7939b06a92.setContent(html_66870318cd3310a3ca76d7d62795c909);
+            
+        
+
+        marker_cd0376d8ac68668c9230e5eddf914945.bindPopup(popup_26455645c2c2ccf0aff6ef7939b06a92)
+        ;
+
+        
+    
+    
+            var marker_19626757e9927e77180ad8482bda64b8 = L.marker(
+                [3.1297033150453073, 101.75446521462591],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_c930a197f47d2946282fcb6d9ee8d298 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_19626757e9927e77180ad8482bda64b8.setIcon(icon_c930a197f47d2946282fcb6d9ee8d298);
+        
+    
+        var popup_137255e26ae9ab92dae6a3140c6c89a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d30a4a6cc57048ea4f692e0dc92bfd5 = $(`<div id="html_6d30a4a6cc57048ea4f692e0dc92bfd5" style="width: 100.0%; height: 100.0%;">Client Location: Pandan Indah,Menara Maxisegar, Jalan Pandan Indah 4/2, Kuala Lumpur</div>`)[0];
+                popup_137255e26ae9ab92dae6a3140c6c89a4.setContent(html_6d30a4a6cc57048ea4f692e0dc92bfd5);
+            
+        
+
+        marker_19626757e9927e77180ad8482bda64b8.bindPopup(popup_137255e26ae9ab92dae6a3140c6c89a4)
+        ;
+
+        
+    
+    
+            var marker_09d551e98dbd9079898cb23c7c9ecc59 = L.marker(
+                [3.1519704741768733, 101.66551551117045],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_dc1f0662ef7714f9cb439832747ae7a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_09d551e98dbd9079898cb23c7c9ecc59.setIcon(icon_dc1f0662ef7714f9cb439832747ae7a0);
+        
+    
+        var popup_af777d8bf8547de56905fa455bebd206 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abdeac22cb088b63df13b76a4069abc1 = $(`<div id="html_abdeac22cb088b63df13b76a4069abc1" style="width: 100.0%; height: 100.0%;">Client Location: Bukit Damansara,Kompleks Pejabat Damansara, Jalan Semantan, Kuala Lumpur</div>`)[0];
+                popup_af777d8bf8547de56905fa455bebd206.setContent(html_abdeac22cb088b63df13b76a4069abc1);
+            
+        
+
+        marker_09d551e98dbd9079898cb23c7c9ecc59.bindPopup(popup_af777d8bf8547de56905fa455bebd206)
+        ;
+
+        
+    
+    
+            var marker_ffbe50e7d8527e234d8285b0a670898a = L.marker(
+                [3.15074186087693, 101.71096758047933],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_feb788dd57bff5651d11a9fc874416d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ffbe50e7d8527e234d8285b0a670898a.setIcon(icon_feb788dd57bff5651d11a9fc874416d0);
+        
+    
+        var popup_6b8b2ed46340c92f2ab2e1e7bc6ff291 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3333511bbcd4ec1aced19b0e98ea266 = $(`<div id="html_d3333511bbcd4ec1aced19b0e98ea266" style="width: 100.0%; height: 100.0%;">Client Location: Wisma Genting,Wisma Genting, Jalan Sultan Ismail, Kuala Lumpur</div>`)[0];
+                popup_6b8b2ed46340c92f2ab2e1e7bc6ff291.setContent(html_d3333511bbcd4ec1aced19b0e98ea266);
+            
+        
+
+        marker_ffbe50e7d8527e234d8285b0a670898a.bindPopup(popup_6b8b2ed46340c92f2ab2e1e7bc6ff291)
+        ;
+
+        
+    
+    
+            var marker_8bd6079f20c02578e546890cd1d9e9e2 = L.marker(
+                [3.180100506165616, 101.74385207626197],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_5cf3cc825e4dccbeffe05c5a9ad1410c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8bd6079f20c02578e546890cd1d9e9e2.setIcon(icon_5cf3cc825e4dccbeffe05c5a9ad1410c);
+        
+    
+        var popup_bc307a5a12676cfbebd3487a47de99bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05d2d5c34f6a8ff3f0fa0a77bd052e9d = $(`<div id="html_05d2d5c34f6a8ff3f0fa0a77bd052e9d" style="width: 100.0%; height: 100.0%;">Client Location: Taman Setiawangsa,Jalan Setiawangsa 11, Taman Setiawangsa, Kuala Lumpur</div>`)[0];
+                popup_bc307a5a12676cfbebd3487a47de99bf.setContent(html_05d2d5c34f6a8ff3f0fa0a77bd052e9d);
+            
+        
+
+        marker_8bd6079f20c02578e546890cd1d9e9e2.bindPopup(popup_bc307a5a12676cfbebd3487a47de99bf)
+        ;
+
+        
+    
+    
+            var marker_97736842836a247dbf46366bc3fbd016 = L.marker(
+                [3.161920634394509, 101.6954014646259],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_ed63383dfac5f9e887954f54819871b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_97736842836a247dbf46366bc3fbd016.setIcon(icon_ed63383dfac5f9e887954f54819871b2);
+        
+    
+        var popup_b8eb3ece8223feaacfdecfcf71140cc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9cc8ebb881eaa8d139fc896de6e2da9 = $(`<div id="html_e9cc8ebb881eaa8d139fc896de6e2da9" style="width: 100.0%; height: 100.0%;">Client Location: Wisma FGV,Wisma FGV, Jalan Raja Laut, Kuala Lumpur</div>`)[0];
+                popup_b8eb3ece8223feaacfdecfcf71140cc4.setContent(html_e9cc8ebb881eaa8d139fc896de6e2da9);
+            
+        
+
+        marker_97736842836a247dbf46366bc3fbd016.bindPopup(popup_b8eb3ece8223feaacfdecfcf71140cc4)
+        ;
+
+        
+    
+    
+            var marker_bd2e0d6079e98a6b39600e7d921ac565 = L.marker(
+                [3.2380822760039814, 101.45890444420722],
+                {}
+            ).addTo(feature_group_2511c7047ebc401c8672a5df6a0d8dc1);
+        
+    
+            var icon_472702d8c36daceaaef086bf6e944dfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bd2e0d6079e98a6b39600e7d921ac565.setIcon(icon_472702d8c36daceaaef086bf6e944dfd);
+        
+    
+        var popup_dae871bcc02f0f72cae2109f20f89fcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_971e0e4d2d588b0c6439badd26dcc9e8 = $(`<div id="html_971e0e4d2d588b0c6439badd26dcc9e8" style="width: 100.0%; height: 100.0%;">Client Location: Puncak Alam Industrial Hub</div>`)[0];
+                popup_dae871bcc02f0f72cae2109f20f89fcd.setContent(html_971e0e4d2d588b0c6439badd26dcc9e8);
+            
+        
+
+        marker_bd2e0d6079e98a6b39600e7d921ac565.bindPopup(popup_dae871bcc02f0f72cae2109f20f89fcd)
+        ;
+
+        
+    
+    
+            feature_group_2511c7047ebc401c8672a5df6a0d8dc1.addTo(map_306566b991c3a47319dcddc3a451af63);
+        
+</script>
+</html>
